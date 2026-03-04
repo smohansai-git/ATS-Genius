@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .box { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #1a73e8; }
+        .counter { font-size: 1.2em; color: #34a853; margin: 15px 0; }
+        a { color: #5f6368; text-decoration: none; font-weight: bold; }
+        hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hello, {{ name }}!</h1>
+        
+        <p class="counter">You are visitor number: <strong>{{ count }}</strong></p>
+        
+        <p>Your Frontend and Backend are perfectly connected.</p>
+        <hr>
+        <a href="/">← Go Back</a>
+    </div>
+</body>
+</html>
